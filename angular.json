@@ -46,9 +46,13 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/materialize-css/dist/css/materialize.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/materialize-css/dist/js/materialize.js",
+              "./src/materialize.js"
+            ]
           },
           "configurations": {
             "production": {
